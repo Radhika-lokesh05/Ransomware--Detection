@@ -1,0 +1,56 @@
+# ===== Node / React =====
+node_modules/
+dist/
+build/
+.npm
+*.tsbuildinfo
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+*.egg
+.eggs/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ===== Flask =====
+instance/
+*.db
+*.sqlite3
+
+# ===== Environment / Secrets =====
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+
+# ===== Logs =====
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===== OS Files =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== IDE =====
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ===== Blockchain / Ganache =====
+.ganache/
